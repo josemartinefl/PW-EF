@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.color-acento { 
+    color: #e50914; 
+}
+
+#hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('media/presentacion.jpg');
+    background-position: top center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#nuestrosproductos {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('media/POLOS.jpeg');
+    background-position: center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gif-container {
+    width: 150px; 
+    height: 150px;
+    border-radius: 50%; 
+    object-fit: cover; 
+    margin: 0 auto;
+    display: block;
+}
+
+.carta {
+    background-color: #ffffff;
+    border: 1px solid #eaeaea;
+    color: #000000;
+}
+
+.marca-card {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    border: 1px solid #333;
+}
+
+.marca-card img {
+    background-color: #000;
+}
+
+.contacto-icono {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
